@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, .user-section, .chapters {
+    margin: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  
+  .logo-img{
+    height: auto;
+    width: auto;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .nav a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .nav img {
+    height: 30px; /* placeholder for logo */
+  }
+  
+  .nav .search {
+    display: flex;
+    gap: 10px;
+    border-radius: 20px;;
+  }
+
+  .search-bar{
+    border-radius: 20px;;
+  }
+  
+  
+.tabs {
+  display: flex;
+  gap: 30px;
+  padding: 12px 40px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Arial', sans-serif;
+}
+
+.tabs span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #b145c4;
+  cursor: pointer;
+  padding-bottom: 6px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tabs span:hover {
+  color: #8e2bbf;
+}
+
+.tabs .active {
+  border-bottom: 3px solid #b145c4;
+  color: #8e2bbf;
+}
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #eae6f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .user-section img {
+    height: 80px;
+  }
+  .chapters-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .chapters {
+    width: 70%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 20px 24px;
+    border-radius: 20px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(128, 0, 128, 0.15); /* subtle purple hover shadow */
+  }
+  
+  .card h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  
+  .card .label {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 4px;
+  }
+  
+  .card a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .play-button {
+    width: 0;
+    height: 0;
+    border-left: 20px solid #800080; /* Purple */
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    margin: 16px 0;
+    cursor: pointer;
+  }
+  
+  .duration {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 12px;
+  }
+  
+  .progress-bar {
+    height: 6px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    width: 35%; /* or dynamic value */
+    background-color: #800080; /* Purple */
+    transition: width 0.4s ease;
+  }
+
+  .leaderboard-btn {
+    background-color: white;
+    color: #800080; /* Purple */
+    border: 2px solid #800080;
+    padding: 0.4rem 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.1s ease;
+  }
+
+  .leaderboard-btn a{
+    text-decoration: none;
+    color: #800080;
+  }
+
+  .leaderboard-btn a:hover{
+    color: white;
+  }
+  
+  .leaderboard-btn:hover {
+    background-color: #800080;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,231 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.brand-name {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #000;
+}
+
+header a{
+  text-decoration: none;
+  color:inherit;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: purple;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main {
+  padding: 40px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.chapter-intro h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.chapter-intro h1 .highlight {
+  color: purple;
+}
+
+.meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.chapter-actions {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.chapter-actions span {
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.chapter-actions span:hover {
+  color: purple;
+  transform: scale(1.05);
+}
+
+.description {
+  max-width: 650px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.unlock {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: #fef6ff;
+  border: 1px solid #e1c7f4;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  max-width: 650px;
+}
+
+.unlock img {
+  width: 120px;
+}
+
+.unlock p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.unlock a {
+  color: purple;
+  text-decoration: underline;
+}
+
+.video-cards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+}
+
+.video-card {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.video-card:hover {
+  background: #f0e9fc;
+  transform: scale(1.01);
+}
+
+.video-card p {
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+}
+.desc-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.play-button {
+  width: 0;
+  height: 0;
+  border-left: 20px solid purple;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.final-test {
+  margin: 60px 0 40px;
+  text-align: center;
+}
+
+.final-test button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.final-test button:hover {
+  background-color: #5e2a95;
+  transform: scale(1.05);
+}
+
+.final-test p {
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #444;
+}
+
+footer.resources {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  font-weight: 600;
+  background-color: #f9f9f9;
+}
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

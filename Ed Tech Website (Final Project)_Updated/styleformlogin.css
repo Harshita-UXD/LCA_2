@@ -1,0 +1,131 @@
+* {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/Signup\ Page\ gradient.png');
+    background-size: cover;
+  }
+  
+  .auth-modal {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .left-panel {
+    background: linear-gradient(135deg, #a64ef2, #8102AE);
+    width: 50%;
+    padding: 30px;
+    color: white;
+  }
+  
+  .right-panel {
+    width: 50%;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .right-panel h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .right-panel p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .auth-button {
+    width: 100%;
+    align-self: center;
+    background-color: #800080;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .auth-button:hover {
+    background-color: #800080;
+  }
+
+  .bottom-form{
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .switch {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .switch a {
+    color: #800080;
+    ;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+    color:inherit;
+  }
+  
+  .forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
+  .forgot a {
+    text-decoration: none;
+    color: #800080;
+    font-size: 13px;
+  }
+  
+  .remember {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
