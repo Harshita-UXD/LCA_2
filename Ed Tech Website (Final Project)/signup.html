@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup - Photon Pulse</title>
+  <link rel="stylesheet" href="styleformlogin.css" />
+</head>
+<body>
+  <div class="auth-modal">
+    <div class="left-panel">
+      <!-- Optional visuals or branding -->
+    </div>
+
+    <!-- SIGNUP PANEL -->
+    <div class="right-panel" id="signup-panel">
+      <h2>Signup</h2>
+      <p>Welcome! Please create your account.</p>
+      
+      <form id="signupForm">
+        <label for="name">
+          <input id="name" name="name" type="text" placeholder="Name" required />
+        </label>
+        
+        <label for="email">
+          <input id="email" name="email" type="email" placeholder="username@school.edu.in" required />
+        </label>
+        
+        <label for="password">
+          <input id="password" name="password" type="password" placeholder="Password" required />
+        </label>
+        
+        <label for="confirmPassword">
+          <input id="confirmPassword" name="confirmPassword" type="password" placeholder="Confirm Password" required />
+        </label>
+
+        <div class="input-row">
+          <label for="class">
+            <input id="class" name="class" type="text" placeholder="Class" required />
+          </label>
+
+          <label for="board">
+            <select id="board" name="board" required>
+              <option value="CBSE">CBSE</option>
+              <option value="ICSE">ICSE</option>
+            </select>
+          </label>
+        </div>
+
+        <button type="submit" class="auth-button">Signup</button>
+      </form>
+
+      <div class="switch">
+        Existing user? <a href="login.html">Login</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

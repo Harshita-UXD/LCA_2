@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup/Login - Photon Pulse</title>
+  <link rel="stylesheet" href="styleformlogin.css" />
+</head>
+<body>
+  <div class="auth-modal">
+    <div class="left-panel">
+      <!-- Optional background visuals or branding -->
+    </div>
+
+    <!-- LOGIN PANEL -->
+    <div class="right-panel" id="login-panel">
+      <h2>Login</h2>
+      <p>Welcome Back! Please login to your account.</p>
+      <input type="text" placeholder="username@school.edu.in" />
+      <input type="password" placeholder="Password" />
+      <div class="forgot">
+        <label class="remember">
+          <input type="checkbox" />
+          Remember Me
+        </label>
+        <a href="#">Forgot Password?</a>
+      </div>
+      <button class="auth-button">Login</button>
+      <div class="switch">
+        New User? <a onclick="toggleForm('signup')">Signup</a>
+      </div>
+    </div>
+
+    <!-- SIGNUP PANEL -->
+    <div class="right-panel" id="signup-panel" style="display: none;">
+      <h2>Signup</h2>
+      <p>Welcome! Please create your account.</p>
+      <input type="text" placeholder="username@school.edu.in" />
+      <input type="password" placeholder="Password" />
+      <input type="password" placeholder="Confirm Password" />
+      <!-- Uncomment below if you want to collect school name -->
+      <!-- <input type="text" placeholder="School Name" class="input" /> -->
+      <div class="input-row">
+        <input type="text" placeholder="Class" />
+        <select>
+          <option>CBSE</option>
+          <option>ICSE</option>
+        </select>
+      </div>
+      <button class="auth-button">Signup</button>
+      <div class="switch">
+        Existing user? <a onclick="toggleForm('login')">Login</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="scriptlogin.js"></script>
+</body>
+</html>

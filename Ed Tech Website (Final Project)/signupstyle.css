@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .modal-container {
+    width: 800px;
+    max-width: 95%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .modal-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .left-panel {
+    width: 40%;
+    background-image: url("./images/purple-ellipse.png");
+  }
+  
+  .right-panel {
+    padding: 40px;
+    width: 60%;
+  }
+  
+  .right-panel h2 {
+    margin-bottom: 10px;
+  }
+  
+  .right-panel p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    background: #8f00ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background: #7a00d1;
+  }
+  
+  .login-link {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-link a {
+    color: #8f00ff;
+    text-decoration: none;
+  }
